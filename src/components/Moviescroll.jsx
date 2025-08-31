@@ -7,13 +7,13 @@ function Moviescroll() {
   const images = [img1, img2, img3]; // All your images
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-scroll every 3 seconds
+  // Auto-scroll every 1 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // Change every 3 seconds
+    }, 1000); // Change every 3 seconds
 
     return () => clearInterval(interval); // Cleanup interval
   }, [images.length]);

@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b border-white/10 shadow-lg">
       <div className="flex items-center justify-between max-w-7xl mx-auto px-6 py-3">
         {/* Logo */}
-        <h1 className="text-xl font-bold text-white">Filmzerr</h1>
+        <h1 className="text-xl font-bold text-blue-900 font-sans ">Filmzerr</h1>
 
         {/* Links */}
         <ul className="flex items-center gap-6 text-white font-medium">
